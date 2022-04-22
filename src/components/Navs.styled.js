@@ -12,7 +12,7 @@ export const NavList = styled.ul`
 
 export const LinkStyled = styled(Link)`
 /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbgI4s9RsCa62p4tQtBjhqpBIiY3Ux51thA&usqp=CAU'); */
-background-color: #A7907F;
+background-color: #F1E0D6;
   margin: 0 10px;
   padding: 3px 15px;
   position: relative;
