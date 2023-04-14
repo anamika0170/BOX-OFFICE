@@ -4,21 +4,21 @@ export const FlexGrid = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color:#F2EAED;
+  ${'' /* background-color:#F2EAED; */}
 `;
 
 export const SearchCard = styled.div`
   width: 300px;
   height: 100%;
   margin: 0 15px 40px;
-  background-color: #BF988F;
+  background-color: #062d4e;
 
   .img-wrapper {
     width: 100%;
-    border-radius: 40px;
+    ${'' /* border-radius: 40px; */}
     height: 420px;
     overflow: hidden;
-    border: 1px solid #ddd;
+    ${'' /* border: 1px solid #ddd; */}
     img {
       object-fit: cover;
       height: 100%;
@@ -29,10 +29,14 @@ export const SearchCard = styled.div`
   h1 {
     margin: 10px 0;
     font-size: 21px;
+    color:white;
+    padding-left:10px
   }
 
   p {
     margin: 0;
+    color:white;
+    padding-left:10px
   }
 `;
 
@@ -40,7 +44,7 @@ export const Star = styled.div`
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-color: ${props => (props.active ? '#ffc806' : '#ddd')};
+  background-color: ${props => (props.active ? '#ffc806' : '#a8a499')};
   clip-path: polygon(
     50% 0%,
     61% 35%,

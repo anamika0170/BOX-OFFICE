@@ -34,7 +34,7 @@ const Starred = () => {
     <MainPageLayout>
       {isLoading && <div>Shows are still loading</div>}
       {error && <div>Error occured: {error}</div>}
-      {!isLoading && !shows && <div>No shows were added</div>}
+      {!isLoading && !shows && <center style={{color:"white"}}>No shows were added</center>}
       {!isLoading && !error && shows && <ShowGrid data={shows} />}
     </MainPageLayout>
   );

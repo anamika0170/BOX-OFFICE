@@ -9,12 +9,15 @@ const RadioWrapper = styled.label`
   font-size: 13px;
   user-select: none;
   font-weight: 700;
+  color:white;
   line-height: 1.65;
+  ${'' /* color:white */}
 
   input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
+    
   }
 
   span {
@@ -24,13 +27,15 @@ const RadioWrapper = styled.label`
     height: 16px;
     width: 16px;
     background-color: #fff;
-    border: 2px solid ${({ theme }) => theme.mainColors.blue};
+    border: 2px solid ${({ theme }) => "black"};
     border-radius: 50%;
+    
   }
 
   input:checked ~ span {
     background-color: #fff;
-    border: 2px solid ${({ theme }) => theme.mainColors.blue};
+    border: 2px solid ${({ theme }) => "black"};
+    
   }
 
   span:after {
@@ -41,6 +46,7 @@ const RadioWrapper = styled.label`
 
   input:checked ~ span:after {
     display: block;
+
   }
 
   span:after {
@@ -49,7 +55,7 @@ const RadioWrapper = styled.label`
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: ${({ theme }) => theme.mainColors.blue};
+    background: ${({ theme }) => theme.mainColors.active};
   }
 `;
 

@@ -12,16 +12,30 @@ export const NavList = styled.ul`
 
 export const LinkStyled = styled(Link)`
 /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbgI4s9RsCa62p4tQtBjhqpBIiY3Ux51thA&usqp=CAU'); */
-background-color: #F1E0D6;
+${'' /* background-color: #F1E0D6;
   margin: 0 10px;
   padding: 3px 15px;
   position: relative;
   font-size: 20px;
   text-decoration: none;
-  font-weight:bold;
-  color: ${({ theme }) => theme.mainColors.blue};
+  font-weight:bold; */}
+  display: block;
+    background-color: #e9ebde;
+    margin: 0px 22px;
+    padding: 6px 30px;
+    position: relative;
+    font-size: 20px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 9px;
+    padding-bottom: 12px;
+    text-align: center;
+  color: ${({ theme }) => theme.mainColors.black};
   &.active {
-    color: ${({ theme }) => theme.mainColors.blue};
+    color: ${({ theme }) => theme.mainColors.darkblue};
+    text-decoration:underline;
     &:after {
       content: '';
       position: absolute;

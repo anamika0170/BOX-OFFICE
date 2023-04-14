@@ -9,9 +9,12 @@ import {HashRouter} from 'react-router-dom'
 
 const theme = {
   mainColors: {
-    blue: '#2400ff',
-    gray: '#c6c6c6',
-    dark: '#353535',
+    white: 'white',
+    black:"black",
+    active:"#0c3d61",
+    darkblue:"darkblue"
+    // gray: '#c6c6c6',
+    // dark: '#353535',
   },
 };
 

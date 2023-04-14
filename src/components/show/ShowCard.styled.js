@@ -9,11 +9,10 @@ export const StyledShowCard = styled(SearchCard)`
     justify-content: space-between;
     align-items: center;
     a {
-      text-decoration-color: #000;
-      color: #000;
+      text-decoration-color: white;
+      color: white;
       &:hover {
-        text-decoration-color: blue;
-        color: blue;
+        font-size:20px
       }
     }
     button {
@@ -21,7 +20,7 @@ export const StyledShowCard = styled(SearchCard)`
       border: 1px solid #8e8e8e;
       border-radius: 15px;
       padding: 5px 20px;
-      background-color: #fff;
+      ${'' /* background-color: #fff; */}
       display: flex;
       justify-content: center;
       align-items: center;
