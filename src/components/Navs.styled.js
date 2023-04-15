@@ -7,6 +7,7 @@ export const NavList = styled.ul`
   list-style: none;
   margin: 0 0 30px;
   padding: 0;
+  ${'' /* padding-right: 5px; */}
   
 `;
 

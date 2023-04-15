@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SearchInput = styled.input`
   display: block;
   font-family: 'Roboto', sans-serif;
-  width: 200px;
+  width: 206px;
   margin: auto;
   outline: none;
   padding: 13px 15px;
@@ -12,6 +12,7 @@ export const SearchInput = styled.input`
   font-size: 14px;
   border-radius: 12px;
   color: black;
+  ${'' /* margin-left: 85px; */}
   
 
   &::placeholder {
@@ -33,6 +34,7 @@ export const RadioInputsWrapper = styled.div`
 export const SearchButtonWrapper = styled.div`
   text-align: center;
   margin-bottom: 35px;
+  color:white;
 
   button {
     color: #fff;
